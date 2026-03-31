@@ -20,8 +20,7 @@ app.use(helmet());
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'http://localhost:3000',
-    'https://global-news-explorer.vercel.app',
+    'https://global-news-explorer.vercel.app/',
   ],
   credentials: true,
 }));
