@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://global-news-explorer-51qq.onrender.com',
 });
 
 export const searchNews = async (query, category, summarize = false) => {
